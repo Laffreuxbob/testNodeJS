@@ -1,0 +1,26 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "TodoList nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node back/server.js",
+    "dev": "nodemon back/server.js",
+    "postinstall": "echo 'install success' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laffreuxbob/testNodeJS.git"
+  },
+  "author": "OBR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laffreuxbob/testNodeJS/issues"
+  },
+  "homepage": "https://github.com/Laffreuxbob/testNodeJS#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  }
+}
